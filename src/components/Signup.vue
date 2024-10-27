@@ -62,7 +62,7 @@
   import { ref } from 'vue';
   import PocketBase from 'pocketbase';
   import { useRouter } from 'vue-router';
-  const pb = new PocketBase('http://127.0.0.1:8090');
+  const pb = new PocketBase('http://localhost:8090');
   const router = useRouter();
   
   const username = ref('');
